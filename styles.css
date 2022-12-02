@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1E555C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clock {
+    color: white;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#clock h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.break-session {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+
+.controller {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.increment-decrement {
+    display: flex;
+    width: 75%;
+    padding: 10px 0;
+    font-size: 30px;
+    justify-content: space-evenly;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 25px;
+}
+
+button {
+    background-color: #1E555C;
+    border: 0;
+    padding: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.timer {
+    margin: 10px;
+    padding: 15px;
+    border: 10px solid #13353A;
+    border-radius: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timer-label {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+#time-left {
+    font-size: 70px;
+    margin: 10px 30px;
+}
